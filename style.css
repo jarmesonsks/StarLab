@@ -1,0 +1,98 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fc;
+    color: #222;
+    
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #ffd700;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px  5px 10px rgba(54, 40, 40, 0.548);
+
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+    color: #030302;
+  }
+  
+  nav { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 1rem 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 5px  5px 10px rgba(54, 40, 40, 0.548);
+    gap: 1.2rem;
+    border-bottom: 2px solid #e0e0e0;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0057ff;
+    font-weight: 600;
+    transition: color 0.3s;
+    
+  }
+  
+  nav a:hover {
+    color: #ff8800;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px  5px 10px rgba(54, 40, 40, 0.548);
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  h2 {
+    color: #222;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+    color: #ff5500;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #f0f0f5;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 2px solid #e0e0e0;
+    margin-top: 2rem;
+  }
+  
